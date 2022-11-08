@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>API Webbapp Workshop</title>
+    <!-- Materialize CSS - minified CSS & Javascript-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Materialize CSS - minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Axios - HTTP-calls helper  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- App code  -->
+    <script src="app.js"></script>
+  </head>
+  <body onload="startApp()">
+
+
+  <nav>
+<div class="nav-wrapper">
+  <a href="#" class="brand-logo">Min anävnder app</a>
+  <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <li><a href="sass.html">Nyheter</a></li>
+    <li><a href="badges.html">Tjänster</a></li>
+    <li><a href="collapsible.html">Hjälp</a></li>
+    <li><a class="waves-effect waves-light btn">Log in</a></li>
+  </ul>
+
+</div>
+</nav>
+
+
+<div class="carousel carousel-slider center">
+    <div class="carousel-fixed-item center">
+    </div>
+    <a class="carousel-item" href="#one!"><img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="https://www.gettyimages.se/gi-resources/images/500px/983794168.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="https://images.ctfassets.net/hrltx12pl8hq/4NhtYxiAxVzEzQQVFl5c0h/e70608b02fa41bd0841a56824e78bbff/UHP-Abstract-_0_00_00_00_.jpg?fit=fill&w=1200&h=630"></a>
+    <a class="carousel-item" href="#four!"><img src="https://media.istockphoto.com/photos/extra-wide-evening-panorama-of-business-miami-skyline-picture-id1058108750?b=1&k=20&m=1058108750&s=170667a&w=0&h=YzDzPZd4CXZe1-G_cjL2WIylKsvK2JjgS9MGdQ2uy-Q="></a>
+  </div>
+
+
+    <div class="container">
+      <div>
+        <h2>Users</h2>
+         <button class="waves-effect waves-light btn" id="load-users-button">Ladda</button>
+
+        <div id="member-list">
+      
+        </div>
+      </div>
+      <div>
+        <h2>Poster</h2>
+        <div id="user-posts">
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+             <div class="container">
+               <div class="row">
+                 <div class="col l6 s12">
+                   <h5 class="white-text">Om oss</h5>
+                   <p class="grey-text text-lighten-4">Detta är en medelartjänst för oss som gillar webbutveckling.</p>
+                 </div>
+                 <div class="col l4 offset-l2 s12">
+                   <h5 class="white-text">Links</h5>
+                   <ul>
+                     <li><a class="grey-text text-lighten-3" href="#!">Fria bilder</a></li>
+                     <li><a class="grey-text text-lighten-3" href="#!">Fria fonter</a></li>
+                     <li><a class="grey-text text-lighten-3" href="#!">Fri JavaScript</a></li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+             <div class="footer-copyright">
+               <div class="container">
+               © 2014 Copyright Text
+               <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+               </div>
+             </div>
+           </footer>
+
+
+
+
+
+
+
+
+  </body>
+</html>

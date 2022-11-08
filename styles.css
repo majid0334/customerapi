@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+}
+
+.container > * {
+  flex-grow: 0;
+  width: 50%;
+}
+
+#member-list .user {
+  cursor: pointer;
+  padding: 5px;
+}
+
+#member-list .user * {
+  margin: 0px;
+}
+
+#member-list .user:hover {
+  background-color: rgb(220, 220, 250);
+  box-shadow: 0 0 6px;
+}
+
+
+#user-posts > div {
+  margin-bottom: 15px;
+}
+
+#user-posts > div * {
+  margin: 0px;
+}
